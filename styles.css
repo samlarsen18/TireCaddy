@@ -1,0 +1,104 @@
+body {
+  background-color: #edeae8;
+  color: #282a2b;
+  font-family: 'Raleway', sans-serif;
+}
+
+#container {
+  width: 940px;
+  padding: 20px 0 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#header {
+  position: relative;
+  width: 940px;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+#header h2.logo {
+  position: absolute;
+  background: transparent url(//wythehotel.com/wp-content/themes/wythe/css/../img/sitewide/logo.png) no-repeat 0 0;
+  height: 190px;
+  width: 134px;
+  margin-left: -74px;
+  margin-top: 0;
+  z-index: 0;
+  left: 50%;
+}
+
+.nav {
+  width: 940px;
+  overflow: hidden;
+  margin-top: 175px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  /*padding-inline-start: 40px;
+  */
+  text-align: center;
+  padding-left: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: .867em;
+  letter-spacing: .05em;
+  font-family: 'SackersGothicW01-Medium', sans-serif;
+  font-size: 1em;
+  color: #999;
+  margin: 0 16px;
+  padding: 3px;
+}
+
+.nav li:hover {
+  color: #111;
+}
+
+/******** Main Body********/
+.main {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+}
+
+.service {
+  flex: 1;
+  background: #C7D3D6;
+  margin: 30px;
+}
+
+.service p {
+  margin: 30px;
+}
+
+.service h2 {
+  margin-bottom: 0px;
+}
